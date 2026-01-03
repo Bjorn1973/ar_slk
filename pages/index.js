@@ -95,8 +95,8 @@ const Index = () => {
     <div>
       <div className="header">
         <h3 className="title">Aanwezigheidsregister Triangel</h3>
-        <div>
-          <img src="/images/logo.png" alt="" />
+        <div className="logocontainer">
+          <img src="/images/logo.png" alt="logo KB Triangel" />
         </div>
       </div>
       <form className="form" action="">

@@ -24,7 +24,18 @@ body {
 .title{
     font-size: 36pt;
     font: Roboto;
-    color:darkblue
+    color:darkblue;
+    width: 75%;
+    text-align: center;
+}
+.logocontainer{
+    display: flex;
+    justify-content: center;
+    width:25%;
+}
+.logo{
+    width: 100%;
+    height: auto;
 }
 .form{
     display: flex;
@@ -80,7 +91,7 @@ body {
 .listTitle{
     color:darkblue;
     font-size: 16pt;
-
+    text-align: center;
 }
 .listItem{
     display: flex;
@@ -113,6 +124,20 @@ body {
     font-size: 14pt;
 }
 
+@media screen and (max-width: 1035px){
+    .title{
+        font-size: 32pt;
+    }
+    .form{
+        width: 40%;
+    }
+}
+@media screen and (max-width: 950px){
+    .title{
+        font-size: 30pt;
+    }
+    
+}
 @media screen and (max-width: 915px){
     .title{
         font-size: 28pt;
@@ -139,5 +164,38 @@ body {
 @media screen and (max-width: 780px){
     .form{
         width: 65%;
+    }
+}
+@media screen and (max-width: 550px){
+    .header{
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .title{
+        font-size: 20pt;
+    }
+    .logocontainer{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 375px){
+    
+    .title{
+        font-size: 18pt;
+    }
+}
+@media screen and (max-width: 320px){
+    
+    .title{
+        font-size: 16pt;
+    }
+    .inputField{
+        font-size: 11pt;
+    }
+    .addButton,.addButton:disabled{
+        font-size: 11pt;
+    }
+    .substitute{
+        font-size: 11pt;
     }
 }
