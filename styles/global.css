@@ -193,6 +193,7 @@ body {
     }
     .title{
         font-size: 20pt;
+        width: 100%;
     }
     .logocontainer{
         width: 50%;
