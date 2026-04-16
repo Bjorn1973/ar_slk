@@ -24,7 +24,7 @@ body {
 .title{
     font-size: 36pt;
     font: Roboto;
-    color:darkblue;
+    color: #e42e25;;
     width: 75%;
     text-align: center;
 }
@@ -48,26 +48,26 @@ body {
     margin-bottom:5px ;
     padding: 15px 20px;
     font-size: 14pt;
-    border: 1.5px solid darkblue;
+    border: 1.5px solid #e42e25;
     border-radius: 4px;
     outline: none;
 }
 .inputField:focus{
-    background-color: aliceblue;
-    border: 3px solid darkblue;
+    background-color: #fce9e8;
+    border: 3px solid #e42e25;
 
 }
 ::placeholder{
-    color: darkblue;
+    color: #e42e25;
     opacity: 0.4;
 }
 .addButton:disabled{
     padding: 15px 20px;
     font-size: 14pt;
     border-radius: 4px;
-    border: 1.5px solid darkblue;
-    background-color: aliceblue;
-    color: darkblue;
+    border: 1.5px solid #e42e25;
+    background-color: #fce9e8;
+    color: #e42e25;
     opacity: 0.4;
     cursor:not-allowed ;
 }
@@ -89,7 +89,7 @@ body {
     width: 100%;
 }
 .listTitle{
-    color:darkblue;
+    color:#e42e25;
     font-size: 16pt;
     text-align: center;
 }
@@ -120,7 +120,7 @@ body {
     fill:white;
 }
 .substitute{
-    color:darkblue;
+    color:#e42e25;
     font-size: 14pt;
 }
 
