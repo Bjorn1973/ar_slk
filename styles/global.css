@@ -163,7 +163,7 @@ body {
 }
 @media screen and (max-width: 780px){
     .form{
-        width: 65%;
+        width: 75%;
     }
     .title{
         font-size: 25pt;
