@@ -175,7 +175,7 @@ body {
         font-size: 20pt;
     }
 }
-@media screen and (max-width: 620px){
+@media screen and (max-width: 625px){
     
     .title{
         font-size: 20pt;
