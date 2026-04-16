@@ -169,6 +169,22 @@ body {
         font-size: 25pt;
     }
 }
+@media screen and (max-width: 740px){
+    
+    .title{
+        font-size: 20pt;
+    }
+}
+@media screen and (max-width: 620px){
+    
+    .title{
+        font-size: 20pt;
+    }
+    .header{
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+}
 @media screen and (max-width: 550px){
     .header{
         flex-direction: column;
