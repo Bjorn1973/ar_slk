@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { nanoid } from "nanoid";
+import Image from "next/image";
 
 const Index = () => {
   const [userInput, setUserInput] = useState({
@@ -100,7 +101,7 @@ const Index = () => {
           Sint-Ludgardis Schoten
         </h3>
         <div className="logocontainer">
-          <img src="/images/logo.png" alt="logo Sint-Ludgardis" />
+          <Image src="/images/logo.png" alt="logo Sint-Ludgardis" />
         </div>
       </div>
       <form className="form" action="">
