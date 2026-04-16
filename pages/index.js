@@ -94,7 +94,9 @@ const Index = () => {
   return (
     <div>
       <div className="header">
-        <h3 className="title">Aanwezigheidsregister <br> Sint-Ludgardis Schoten</h3>
+        <h3 className="title">
+          Aanwezigheidsregister <br> Sint-Ludgardis Schoten</br>
+        </h3>
         <div className="logocontainer">
           <img src="/images/logo.png" alt="logo Sint-Ludgardis" />
         </div>

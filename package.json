@@ -1,7 +1,7 @@
 {
-  "name": "aanwezigheidsregister",
+  "name": "c",
   "version": "1.0.0",
-  "description": "",
+  "description": "\"# aanwezigheidsregister_triangel\" \r \"# ar_slk\"",
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
@@ -17,5 +17,14 @@
     "next": "^14.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bjorn1973/ar_slk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Bjorn1973/ar_slk/issues"
+  },
+  "homepage": "https://github.com/Bjorn1973/ar_slk#readme",
+  "devDependencies": {}
 }
