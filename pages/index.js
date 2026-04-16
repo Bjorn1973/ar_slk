@@ -101,7 +101,7 @@ const Index = () => {
           Sint-Ludgardis Schoten
         </h3>
         <div className="logocontainer">
-          <Image src="/images/logo.png" alt="logo Sint-Ludgardis" width={600px}/>
+          <Image src="/images/logo.png" alt="logo Sint-Ludgardis" width={600} />
         </div>
       </div>
       <form className="form" action="">
